@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: Figtree, Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 280px;
+  height: auto;
+  background-color: #fff;
+  padding: 14px;
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: 7px 8px 1px rgba(0, 0, 0, 10);
+  margin-bottom: 30px;
+  transition: box-shadow 0.15s;
+}
+
+.card:active {
+  box-shadow: 16px 16px 1px rgba(0, 0, 0, 10);
+}
+
+.card-image {
+  width: 280px;
+  border-radius: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.status {
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 14px;
+  margin-bottom: 12px; 
+}
+
+.title {
+  text-decoration: none;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+  transition: color 0.15s;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+
+.description {
+  font-size: 14px;
+  color:  hsl(0, 0%, 50%);
+  margin-bottom: 12px;
+  line-height: 18px;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.username {
+ font-weight: bold;
+ font-size: 14px; 
+}
+
+.profile > img {
+  width: 40px;
+}
+
+.attribution > a {
+  text-decoration: none;
+  color:  grey;
+  font-style: italic;
+}
+
+.attribution {
+  font-size: 14px;
+}
