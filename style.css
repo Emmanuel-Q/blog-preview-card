@@ -14,7 +14,7 @@ body {
 
 .card {
   width: 340px;
-  height: auto;
+  /* height: auto;   */
   background-color: #fff;
   padding: 18px;
   border: 1px solid black;
@@ -37,6 +37,7 @@ body {
   display: flex;
   align-items: center;
   column-gap: 12px;
+  margin-top: 14px;
 }
 
 .status {
@@ -45,7 +46,7 @@ body {
   padding: 6px 12px;
   border-radius: 4px;
   font-weight: bold;
-  margin-top: 14px;
+  margin-top: 18px;
   margin-bottom: 12px; 
 }
 
